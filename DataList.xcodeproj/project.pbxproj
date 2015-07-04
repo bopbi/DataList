@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0B7084AAC88798D02F882CFF /* libPods-DataList.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7A73E25C4F398A7A7381864F /* libPods-DataList.a */; };
 		A7473BFB1B46F6D400DBFDCB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A7473BFA1B46F6D400DBFDCB /* main.m */; };
 		A7473BFE1B46F6D400DBFDCB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A7473BFD1B46F6D400DBFDCB /* AppDelegate.m */; };
 		A7473C011B46F6D400DBFDCB /* DataList.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7473BFF1B46F6D400DBFDCB /* DataList.xcdatamodeld */; };
@@ -15,6 +16,9 @@
 		A7473C091B46F6D400DBFDCB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7473C081B46F6D400DBFDCB /* Images.xcassets */; };
 		A7473C0C1B46F6D400DBFDCB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A7473C0A1B46F6D400DBFDCB /* LaunchScreen.xib */; };
 		A7473C181B46F6D400DBFDCB /* DataListTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A7473C171B46F6D400DBFDCB /* DataListTests.m */; };
+		A7473C241B47C71A00DBFDCB /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = A7473C231B47C71A00DBFDCB /* Post.m */; };
+		A7473C271B47C79100DBFDCB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7473C261B47C79100DBFDCB /* DetailViewController.m */; };
+		A7473C2A1B47C7A300DBFDCB /* InputViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7473C291B47C7A300DBFDCB /* InputViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		58B53497A5809B76880890D7 /* Pods-DataList.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataList.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DataList/Pods-DataList.debug.xcconfig"; sourceTree = "<group>"; };
+		7A73E25C4F398A7A7381864F /* libPods-DataList.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DataList.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7473BF51B46F6D400DBFDCB /* DataList.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DataList.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7473BF91B46F6D400DBFDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7473BFA1B46F6D400DBFDCB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +48,13 @@
 		A7473C111B46F6D400DBFDCB /* DataListTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DataListTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A7473C161B46F6D400DBFDCB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A7473C171B46F6D400DBFDCB /* DataListTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DataListTests.m; sourceTree = "<group>"; };
+		A7473C221B47C71A00DBFDCB /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		A7473C231B47C71A00DBFDCB /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		A7473C251B47C79100DBFDCB /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		A7473C261B47C79100DBFDCB /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		A7473C281B47C7A300DBFDCB /* InputViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InputViewController.h; sourceTree = "<group>"; };
+		A7473C291B47C7A300DBFDCB /* InputViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InputViewController.m; sourceTree = "<group>"; };
+		C42736345463E829E74E4C05 /* Pods-DataList.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DataList.release.xcconfig"; path = "Pods/Target Support Files/Pods-DataList/Pods-DataList.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0B7084AAC88798D02F882CFF /* libPods-DataList.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -62,12 +76,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1F957CE7C7F6711507C106CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				58B53497A5809B76880890D7 /* Pods-DataList.debug.xcconfig */,
+				C42736345463E829E74E4C05 /* Pods-DataList.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		1FAFF358EA323DD579014F4F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7A73E25C4F398A7A7381864F /* libPods-DataList.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		A7473BEC1B46F6D400DBFDCB = {
 			isa = PBXGroup;
 			children = (
 				A7473BF71B46F6D400DBFDCB /* DataList */,
 				A7473C141B46F6D400DBFDCB /* DataListTests */,
 				A7473BF61B46F6D400DBFDCB /* Products */,
+				1F957CE7C7F6711507C106CD /* Pods */,
+				1FAFF358EA323DD579014F4F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -83,6 +116,7 @@
 		A7473BF71B46F6D400DBFDCB /* DataList */ = {
 			isa = PBXGroup;
 			children = (
+				A7473C211B47C66E00DBFDCB /* model */,
 				A7473BFC1B46F6D400DBFDCB /* AppDelegate.h */,
 				A7473BFD1B46F6D400DBFDCB /* AppDelegate.m */,
 				A7473C021B46F6D400DBFDCB /* ViewController.h */,
@@ -92,6 +126,10 @@
 				A7473C0A1B46F6D400DBFDCB /* LaunchScreen.xib */,
 				A7473BFF1B46F6D400DBFDCB /* DataList.xcdatamodeld */,
 				A7473BF81B46F6D400DBFDCB /* Supporting Files */,
+				A7473C251B47C79100DBFDCB /* DetailViewController.h */,
+				A7473C261B47C79100DBFDCB /* DetailViewController.m */,
+				A7473C281B47C7A300DBFDCB /* InputViewController.h */,
+				A7473C291B47C7A300DBFDCB /* InputViewController.m */,
 			);
 			path = DataList;
 			sourceTree = "<group>";
@@ -122,6 +160,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		A7473C211B47C66E00DBFDCB /* model */ = {
+			isa = PBXGroup;
+			children = (
+				A7473C221B47C71A00DBFDCB /* Post.h */,
+				A7473C231B47C71A00DBFDCB /* Post.m */,
+			);
+			name = model;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -129,9 +176,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A7473C1B1B46F6D400DBFDCB /* Build configuration list for PBXNativeTarget "DataList" */;
 			buildPhases = (
+				C6DA99E91E550043EFCF6820 /* Check Pods Manifest.lock */,
 				A7473BF11B46F6D400DBFDCB /* Sources */,
 				A7473BF21B46F6D400DBFDCB /* Frameworks */,
 				A7473BF31B46F6D400DBFDCB /* Resources */,
+				871893F03A700040CBC9DCF6 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -217,15 +266,51 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		871893F03A700040CBC9DCF6 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DataList/Pods-DataList-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C6DA99E91E550043EFCF6820 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A7473BF11B46F6D400DBFDCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A7473C2A1B47C7A300DBFDCB /* InputViewController.m in Sources */,
+				A7473C241B47C71A00DBFDCB /* Post.m in Sources */,
 				A7473BFE1B46F6D400DBFDCB /* AppDelegate.m in Sources */,
 				A7473BFB1B46F6D400DBFDCB /* main.m in Sources */,
 				A7473C041B46F6D400DBFDCB /* ViewController.m in Sources */,
 				A7473C011B46F6D400DBFDCB /* DataList.xcdatamodeld in Sources */,
+				A7473C271B47C79100DBFDCB /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +436,7 @@
 		};
 		A7473C1C1B46F6D400DBFDCB /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 58B53497A5809B76880890D7 /* Pods-DataList.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DataList/Info.plist;
@@ -361,6 +447,7 @@
 		};
 		A7473C1D1B46F6D400DBFDCB /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C42736345463E829E74E4C05 /* Pods-DataList.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DataList/Info.plist;
@@ -422,6 +509,7 @@
 				A7473C1D1B46F6D400DBFDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A7473C1E1B46F6D400DBFDCB /* Build configuration list for PBXNativeTarget "DataListTests" */ = {
 			isa = XCConfigurationList;
@@ -430,6 +518,7 @@
 				A7473C201B46F6D400DBFDCB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
